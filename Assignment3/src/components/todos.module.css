@@ -1,0 +1,23 @@
+.todos {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .todos {
+    gap: 1rem;
+    /* Set to 50% width on tablets */
+  }
+}
+
+/* Responsive styles for desktops and larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .todos {
+    gap:2rem /* Set to 25% width on desktops */
+  }
+}

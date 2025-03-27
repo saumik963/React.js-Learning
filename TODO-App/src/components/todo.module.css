@@ -1,0 +1,41 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background: #282a36;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .todo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+
+  
+  .todo .MuiIconButton-root {
+    color: #ff5555;
+    transition: transform 0.2s;
+  }
+  
+  .todo .MuiIconButton-root:hover {
+    transform: scale(1.2);
+  }
+  
+
+.todo p{
+    opacity: 0.6;
+    color: wheat;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor:pointer;
+}
+

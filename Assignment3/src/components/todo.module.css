@@ -1,0 +1,48 @@
+.todo {
+  width: 100%;
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+  text-align: left;
+  padding: 20px;
+}
+
+.todo p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btns {
+  gap: 10px;
+  display: flex;
+}
+
+.done{
+    color: #000;
+    background-color: aliceblue;
+}
+
+.completedTodo{
+ background-color: aliceblue;
+ color: #000;
+}
+
+.completedBtn{
+    background-color: rgb(200 204 207);
+ color: #000;
+}
+
+
+
+/* Responsive styles for tablets and larger screens (min-width: 768px) */
+@media (min-width: 768px) {
+  .todo {
+    width: 40%; /* Set to 50% width on tablets */
+  }
+}
+
+/* Responsive styles for desktops and larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .todo {
+    width: 25%; /* Set to 25% width on desktops */
+  }
+}

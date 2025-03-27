@@ -1,0 +1,14 @@
+.container{
+    flex-direction: column;
+    background-color: #0f0a0a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: xxx-large;
+}

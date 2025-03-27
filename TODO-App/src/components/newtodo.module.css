@@ -1,0 +1,90 @@
+/* .form{
+    width: 50%;
+    background-color: #333;
+    color:wheat;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.form-field{
+    margin: 1rem 0;
+    display: flex;
+}
+
+.form-field label {
+    flex-basis:20%;
+}
+
+.form-field input{
+    flex-basis: 80%;
+    border-radius: 0.6rem;
+
+}
+.form-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+
+button{
+    border-radius: 0.6rem;
+    flex-basis: 50%;
+    background-color: aqua;
+} */
+
+  .title {
+    margin-bottom: 16px;
+    padding-bottom: 1rem;
+    color: #b2becd; /* Light grayish text */
+    font-weight: bold;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input {
+    background-color: #22223b; /* Dark input field */
+    border-radius: 8px;
+    border: 1px solid #3d405b; /* Soft border */
+  }
+  
+  .inputText {
+    color: white !important; /* White text */
+  }
+  
+  .labelText {
+    color: #b2becd !important; /* Light gray label */
+  }
+  
+  .button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3d405b !important; /* Soft blue-gray */
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #4a4e69 !important; /* Slightly lighter hover effect */
+  }
+  
+
+
+  /* Add this CSS to your stylesheet */
+.errorMessageContainer {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+/* Footer container */
+.footer {
+    text-align: right;
+  }
+  
+  /* Footer text styling */
+  .footer-text {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 14px;
+  }
+  
+  /* Optional: Style for the emoji (if you want to adjust its size) */
+  .footer-text span {
+    font-size: 1.2rem; /* Adjust the size of the emoji */
+  }
+  
