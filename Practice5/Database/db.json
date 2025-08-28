@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Anisul Sir", "email": "anisul232@gmail.com" },
+    { "id": 2, "name": "Rohit", "email": "rohit@gmail.com" },
+    { "id": 3, "name": "Gullu", "email": "gullu@gmail.com" },
+    { "id": 4, "name": "Rishab", "email": "rishab@gmail.com" },
+    { "id": 5, "name": "Gunjan", "email": "gunjsn@gmail.com" }
+  ]
+}

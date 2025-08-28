@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headingStyle{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color: palevioletred;
+    border-radius: .5rem;
+}
+
+.card{
+    background-color: blanchedalmond;
+    padding: 1rem;
+    box-shadow: 2px 4px 4px gray;
+    margin: 10px;
+    border-radius: .5rem;
+}
+
+.cardTitle{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block: .6rem;
+}
+
+.cardDesc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-inline: .4rem;
+}
+.cardFooter{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block: .6rem;
+    border: 1px solid gray;
+    margin: .4rem;
+    border-radius: .3rem;
+}

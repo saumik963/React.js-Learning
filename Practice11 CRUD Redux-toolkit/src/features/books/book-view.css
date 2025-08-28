@@ -1,0 +1,108 @@
+/* Container and Heading */
+.book-view-container {
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #1f2937, #111827); /* Dark gradient background */
+  color: #f9fafb;
+  min-height: 100vh;
+}
+
+.book-view-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  letter-spacing: 1px;
+}
+
+/* Table Styling */
+table {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #1e293b; /* Deep slate background */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Table Headers */
+thead th {
+  background-color: #111827; /* Matches navbar dark */
+  color: #f9fafb;
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Table Rows and Cells */
+tbody tr {
+  border-bottom: 1px solid #334155;
+  transition: background 0.3s ease;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #243447;
+}
+
+tbody tr:hover {
+  background-color: #334155;
+}
+
+td {
+  padding: 14px 12px;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+}
+
+/* Options Buttons */
+.options-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.options-buttons button,
+.options-buttons a {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+/* Edit Button */
+.options-buttons .edit-btn {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.options-buttons .edit-btn:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.5);
+}
+
+/* Delete Button */
+.options-buttons .delete-btn {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+}
+
+.options-buttons .delete-btn:hover {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.5);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}

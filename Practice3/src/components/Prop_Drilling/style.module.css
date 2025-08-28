@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "cFont";
+    src: url(..\..\assets\Over.ttf);
+}
+
+@font-face {
+    font-family: "cfont2";
+    src: url(..\..\assets\Cyborg_Punk.ttf);
+}
+
+
+.head{
+    font-family: "cFont";
+}
+.hd{
+    font-family: "cfont2";
+}

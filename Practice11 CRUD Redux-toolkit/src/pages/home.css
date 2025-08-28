@@ -1,0 +1,143 @@
+/* General Page Layout */
+.home-container {
+  color: #f9fafb;
+  background: linear-gradient(135deg, #1f2937, #111827); /* Subtle dark gradient */
+  min-height: 100vh;
+  padding: 0;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #f9fafb;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #d1d5db;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #111827, #1e293b);
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #9ca3af;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+}
+
+/* Buttons */
+.btn {
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin: 0 12px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.secondary-btn:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.large-btn {
+  padding: 18px 45px;
+  font-size: 1.2rem;
+}
+
+/* About & CTA Sections */
+.about-section, .cta-section {
+  background-color: #1e293b;
+  border-top: 1px solid #334155;
+  border-bottom: 1px solid #334155;
+}
+
+/* Featured Books Section */
+.featured-section {
+  background-color: #111827;
+}
+
+.featured-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+/* Book Cards */
+.book-card {
+  background-color: #1f2937;
+  padding: 22px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.book-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #f9fafb;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}

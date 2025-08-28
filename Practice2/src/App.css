@@ -1,0 +1,30 @@
+/* .app{
+  display: flex;
+  justify-content: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+  height: 100vh; /* Ensures the div takes the full height of the viewport */
+}
+
+.valid {
+  background-color: #90f690;
+  width: 16rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+.invalid {
+  background-color: #fd2b2ba3;
+  width: 16rem;
+  height: 3rem;
+  font-size: 2rem;
+}
